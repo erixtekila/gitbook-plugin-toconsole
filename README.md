@@ -1,6 +1,10 @@
 GitBook plugin : Send javascript output to console
 ==============
 
+Gitbook produces code examples.
+This plugin adds a button next to them.
+Then, one can send the result to the browser inspector console.
+
 You can use install it via NPM:
 
 ```bash
