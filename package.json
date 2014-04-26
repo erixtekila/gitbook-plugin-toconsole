@@ -1,0 +1,27 @@
+{
+  "name": "gitbook-plugin-toconsole",
+  "version": "0.0.1",
+  "description": "Gitbook plugin - Send js code examples to console",
+  "main": "index.js",
+  "engines": {
+    "gitbook": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erixtekila/gitbook-plugin-toconsole.git"
+  },
+  "keywords": [
+    "Gitbook",
+    "plugin"
+  ],
+  "author": "Eric Priou <erixtekila@gmail.com> (http://ericpriou.net/)",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/erixtekila/gitbook-plugin-toconsole/issues"
+  },
+  "homepage": "https://github.com/erixtekila/gitbook-plugin-toconsole",
+  "readmeFilename": "README.md",
+}
