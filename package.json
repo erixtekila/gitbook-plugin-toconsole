@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-toconsole",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gitbook plugin - Send js code examples to console",
   "main": "index.js",
   "engines": {
@@ -23,5 +23,8 @@
     "url": "https://github.com/erixtekila/gitbook-plugin-toconsole/issues"
   },
   "homepage": "https://github.com/erixtekila/gitbook-plugin-toconsole",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "cheerio": "^0.15.0"
+  }
 }
