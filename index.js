@@ -33,7 +33,7 @@ module.exports =
 								;
 							$pre.after
 							(
-								'<div class="js-toconsole clearfix" ><button class="btn pull-right" onclick="eval('+ $this.text().replace( /\r?\n|\r|\t/g, "" ) +')">'+ buttontext +'</button></div>'
+								'<div class="js-toconsole clearfix" ><button class="btn pull-right" onclick="eval('+ $this.text().replace( /\r?\n|\r|\t/g, "" ).replace( /'/g, "\\\'" ) +')">'+ buttontext +'</button></div>'
 							);
 
 							//FIXME Monkey patch cheerio escaping strings
