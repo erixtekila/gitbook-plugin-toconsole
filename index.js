@@ -33,12 +33,12 @@ module.exports =
 								;
 							$pre.after
 							(
-								'<div class="js-toconsole clearfix" ><button class="btn pull-right" onclick="eval(\''+ $this.text().trim() +'\')">'+ buttontext +'</button></div>'
+								'<div class="js-toconsole clearfix" ><button class="btn pull-right" onclick="eval('+ $this.text().replace( /\r?\n|\r|\t/g, "" ) +')">'+ buttontext +'</button></div>'
 							);
 
 							//FIXME Monkey patch cheerio escaping strings
 							// Replace by transform
-							section.content = $.html().replace(/&apos;/g, "'" );
+							section.content = $.html().replace(/(eval\()(.*)(\))/g, "$1'$2'$3" );
 						}
 					);
 				}
