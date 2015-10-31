@@ -18,13 +18,13 @@
     "plugin"
   ],
   "author": "Eric Priou <erixtekila@gmail.com> (http://ericpriou.net/)",
-  "license": "Apache 2",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/erixtekila/gitbook-plugin-toconsole/issues"
   },
   "homepage": "https://github.com/erixtekila/gitbook-plugin-toconsole",
   "readmeFilename": "README.md",
   "dependencies": {
-    "cheerio": "^0.15.0"
+    "cheerio": "^0.19.0"
   }
 }
