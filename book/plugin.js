@@ -23,7 +23,7 @@ require
 		(
 			"page.change", function ()
 			{
-				$( ".lang-js" ).each
+				$( ".lang-js, .lang-javascript" ).each
 				(
 					function()
 					{
